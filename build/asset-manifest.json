@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Medical-history-ui/static/css/main.8e7b7bd8.css",
-    "main.js": "/Medical-history-ui/static/js/main.e17244d7.js",
-    "index.html": "/Medical-history-ui/index.html",
-    "main.8e7b7bd8.css.map": "/Medical-history-ui/static/css/main.8e7b7bd8.css.map",
-    "main.e17244d7.js.map": "/Medical-history-ui/static/js/main.e17244d7.js.map"
+    "main.css": "/medical-history-ui/static/css/main.8e7b7bd8.css",
+    "main.js": "/medical-history-ui/static/js/main.e17244d7.js",
+    "index.html": "/medical-history-ui/index.html",
+    "main.8e7b7bd8.css.map": "/medical-history-ui/static/css/main.8e7b7bd8.css.map",
+    "main.e17244d7.js.map": "/medical-history-ui/static/js/main.e17244d7.js.map"
   },
   "entrypoints": [
     "static/css/main.8e7b7bd8.css",
