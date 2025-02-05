@@ -2,7 +2,7 @@
   "name": "medical-history",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dinesh1816.github.io/Medical-history-ui/",
+  "homepage": "https://dinesh1816.github.io/medical-history-ui/",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
@@ -15,7 +15,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build --repo https://github.com/dinesh1816/Medical-history-ui.git"
+
   },
   "eslintConfig": {
     "extends": [
