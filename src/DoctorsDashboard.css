@@ -1,0 +1,77 @@
+/* DoctorDashboard.css */
+.doctor-dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .dashboard-container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .dashboard-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    border-color: #6a11cb;
+    outline: none;
+  }
+  
+  .error-banner {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .search-button {
+    width: 100%;
+    padding: 12px;
+    background: #6a11cb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background: #4a0d9b;
+    transform: translateY(-2px);
+  }
